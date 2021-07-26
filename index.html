@@ -1,61 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Backroads || Tour Company</title>
-    <!-- favicon -->
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
-    <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="./fontawesome-free-5.12.1-web/css/all.min.css"
-    />
-    <!-- styles css -->
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <h1>flexbox backroads</h1>
-    <!-- header  -->
-    <header>
-      <!-- navbar -->
-      <!-- hero -->
-      <div class="hero">
-        <div class="hero-banner">
-          <h1>continue exploring</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quos officiis exercitationem consequatur iste architecto?
-          </p>
-          <a href="#featured" class="btn hero-btn scroll-link">explore tours</a>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Backroads || Tour Company</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.min.css" />
+  <!-- styles css -->
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <h1>flexbox backroads</h1>
+  <!-- header  -->
+  <header>
+    <!-- navbar -->
+    <!-- hero -->
+    <div class="hero">
+      <div class="hero-banner">
+        <h1>continue exploring</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quos officiis exercitationem consequatur
+          iste architecto?
+        </p>
+        <a href="#featured" class="btn hero-btn scroll-link">explore tours</a>
       </div>
-    </header>
-    <!-- end of header  -->
+    </div>
+  </header>
+  <!-- end of header  -->
 
-    <!-- about section -->
-    <section class="section" id="about">
-      
-    </section>
-    <!-- end of about section -->
+  <!-- about section -->
+  <section class="section" id="about">
+    <!-- title -->
+    <div class="section-title">
+      <h2>about <span>us</span></h2>
+    </div>
+    <!-- end of title -->
+    <div class="section-center about-center">
+      <!-- about img wrapper -->
+      <article class="about-img">
+        <img src="./images/about.jpeg" class="about-photo" alt="beautiful beach">
+      </article>
+      <!-- about info -->
+      <article class="about-info">
+        <h3>explore the difference</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque delectus fugiat odit, impedit consectetur
+          tenetur nesciunt officiis quos sint quisquam.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque delectus fugiat odit, impedit consectetur
+          tenetur nesciunt officiis quos sint quisquam.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque delectus fugiat odit, impedit consectetur
+          tenetur nesciunt officiis quos sint quisquam.</p>
+        <a href="#" class="btn">read more</a>
+      </article>
+    </div>
+  </section>
+  <!-- end of about section -->
 
-    <!-- services -->
-    <!--end services -->
+  <!-- services -->
 
-    <!-- featured tours -->
-    <!-- end of featured tours -->
+  <section class="section services" id="services">
+    <!-- section title -->
+    <div class="section-title">
+      <h2>our <span>services</span></h2>
+    </div>
+    <!-- end of section title -->
 
-    <!-- contact -->
+    <div class="section-center services-center">
+      <!-- single service -->
+      <article class="service">
+        <span class="service-icon">
+          <i class="fas fa-wallet fa-fw"></i>
+        </span>
+        <div class="service-info">
+          <h4 class="service-title">Saving money</h4>
+          <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, officia impedit cum
+            modi reprehenderit eos!</p>
+        </div>
+      </article>
+      <!-- end of single service -->
+      <!-- single service -->
+      <article class="service">
+        <span class="service-icon">
+          <i class="fas fa-tree fa-fw"></i>
+        </span>
+        <div class="service-info">
+          <h4 class="service-title">Endless biking</h4>
+          <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, officia impedit cum
+            modi reprehenderit eos!</p>
+        </div>
+      </article>
+      <!-- end of single service -->
+      <!-- single service -->
+      <article class="service">
+        <span class="service-icon">
+          <i class="fas fa-socks fa-fw"></i>
+        </span>
+        <div class="service-info">
+          <h4 class="service-title">amazing comfort</h4>
+          <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, officia impedit cum
+            modi reprehenderit eos!</p>
+        </div>
+      </article>
+      <!-- end of single service -->
+    </div>
+  </section>
+  <!--end services -->
 
-    <!-- end of contact -->
+  <!-- featured tours -->
+  <section class="section" id="featured">
+    <!-- title -->
+    <div class="section-title">
+      <h2>featured <span>tours</span></h2>
+    </div>
+    <!-- end of title -->
+    <!-- featured center -->
+    <div class="section-center featured-center">
+      <!-- single tour -->
+      <article class="tour-cardd">
+        <div class="tour-img-container">
+          <img src="./images/tour-1.jpeg" alt="tour-img">
+          <p class="tour-date">august 26th, 2020</p>
+        </div>
+        <!-- tour info -->
+        <div class="tour-info">
+          <h4>tibet adventure</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum fugit vel libero quam neque corporis
+            voluptatem modi numquam quis odio.</p>
+          <div class="tour-footer">
+            <p><span><i class="fas fa-map"></i></span>china</p>
+            <p>6 days</p>
+            <p>from $2100</p>
+          </div>
+        </div>
+      </article>
+      <!-- end of single tour -->
+      <!-- single tour -->
+      <article class="tour-cardd">
+        <div class="tour-img-container">
+          <img src="./images/tour-2.jpeg" alt="tour-img">
+          <p class="tour-date">october 1st, 2020</p>
+        </div>
+        <!-- tour info -->
+        <div class="tour-info">
+          <h4>bast of java</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum fugit vel libero quam neque corporis
+            voluptatem modi numquam quis odio.</p>
+          <div class="tour-footer">
+            <p><span><i class="fas fa-map"></i></span>Indonesia</p>
+            <p>11 days</p>
+            <p>from $1400</p>
+          </div>
+        </div>
+      </article>
+      <!-- end of single tour -->
+      <!-- single tour -->
+      <article class="tour-cardd">
+        <div class="tour-img-container">
+          <img src="./images/tour-3.jpeg" alt="tour-img">
+          <p class="tour-date">september 15th, 2020</p>
+        </div>
+        <!-- tour info -->
+        <div class="tour-info">
+          <h4>explore hong kong</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum fugit vel libero quam neque corporis
+            voluptatem modi numquam quis odio.</p>
+          <div class="tour-footer">
+            <p><span><i class="fas fa-map"></i></span>Hong Kong</p>
+            <p>8 days</p>
+            <p>from $5000</p>
+          </div>
+        </div>
+      </article>
+      <!-- end of single tour -->
+          <!-- single tour -->
+      <article class="tour-cardd">
+        <div class="tour-img-container">
+          <img src="./images/tour-4.jpeg" alt="tour-img">
+          <p class="tour-date">december 5th, 2020</p>
+        </div>
+        <!-- tour info -->
+        <div class="tour-info">
+          <h4>Kenya highlights</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum fugit vel libero quam neque corporis
+            voluptatem modi numquam quis odio.</p>
+          <div class="tour-footer">
+            <p><span><i class="fas fa-map"></i></span>Kenya</p>
+            <p>20 days</p>
+            <p>from $3300</p>
+          </div>
+        </div>
+      </article>
+      <!-- end of single tour -->
+    </div>
+  </section>
+  <!-- end of featured tours -->
 
-    <!-- gallery  -->
+  <!-- contact -->
 
-    <!-- end of gallery  -->
+  <!-- end of contact -->
 
-    <!-- footer -->
+  <!-- gallery  -->
 
-    <!-- js -->
-    <script src="./js/app.js"></script>
-  </body>
+  <!-- end of gallery  -->
+
+  <!-- footer -->
+
+  <!-- js -->
+  <script src="./js/app.js"></script>
+</body>
+
 </html>
